@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 1,
+    day: 11,
   ),
 )
 
@@ -100,23 +100,19 @@
 
 == Presentation
 
-I am a data scientist with brief but highly productive experience in the field. My strong foundation in
-
-statistical analysis and programming allows me to extract valuable insights from data. Additionally, my
-
-background in psychology brings a unique perspective when analyzing human behavior. I am motivated by
-
-continuous learning and data-driven problem solving.
+I am a data scientist with brief but highly productive experience in the field. My strong foundation in statistical analysis and programming allows me to extract valuable insights from data. Additionally, my background in psychology brings a unique perspective when analyzing human behavior. I am motivated by continuous learning and data-driven problem solving.
 
 == Skills
 
-#strong[Languages:] Python, R, SQL, Java
+#strong[Programming:] Python, R, SQL, Java
 
 #strong[ML Frameworks:] PyTorch, Scikit-Learn, MLflow, mlr3
 
 #strong[Cloud:] Google Cloud, Databricks
 
-#strong[Data engineering:] PySpark, dbt, Apache Beam
+#strong[Data engineering:] Airflow, PySpark, dbt, Apache Beam
+
+#strong[Languages:] Spanish (native), English, French
 
 == Experience
 
@@ -124,13 +120,9 @@ continuous learning and data-driven problem solving.
   [
     #strong[Accenture], Data Engineer
 
-    - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97\% uptime
+    #summary[Development of data ingestion platform in financial services sector]
 
-    - Raised \$18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-
-    - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-
-    - Developed proprietary inference optimization reducing latency by 73\% compared to baseline
+    - Designed and developed data pipelines for unstructured and structured data
 
   ],
   [
@@ -149,9 +141,17 @@ continuous learning and data-driven problem solving.
   [
     #strong[Havas Media], Data Scientist
 
-    - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
+    #summary[Developed core components of an internal BI platform, turning business requirements into scalable data products and insights.]
 
-    - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5\% of submissions)
+    - Designed the data warehouse (schema, relationships, analytical tables).
+
+    - Performed advanced analyses with SQL (BigQuery), R, and Python.
+
+    - Built automated Databricks pipelines for data processing.
+
+    - Created a text-to-SQL chatbot for self-service analytics.
+
+    - Applied ML-based data imputation to improve data quality.
 
   ],
   [
@@ -166,17 +166,36 @@ continuous learning and data-driven problem solving.
   ],
 )
 
+#regular-entry(
+  [
+    #strong[Grupo STIN], Junior Data Scientist
+
+    #summary[Led data analysis for a strategic project tracking personnel and scaffolding via GPS-enabled wearables, delivering ML-driven insights for operational decision-making.]
+
+    - Designed and executed data-collection experiments.
+
+    - Performed data preprocessing, exploratory analysis, and visualization.
+
+    - Proposed and evaluated machine-learning models and statistical methods to extract actionable knowledge.
+
+  ],
+  [
+    Madrid, ES
+
+    Sept 2021 – Apr 2022
+
+    
+
+    8 months
+
+  ],
+)
+
 == Education
 
 #education-entry(
   [
-    #strong[Universitat Oberta de Catalunya], Computer Science
-
-    - Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment
-
-    - Advisor: Prof. Sanjeev Arora
-
-    - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+    #strong[Universitat Oberta de Catalunya], Data Science
 
   ],
   [
@@ -194,15 +213,13 @@ continuous learning and data-driven problem solving.
   [
     #strong[Universidad Autónoma de Madrid], Applied Statistics
 
-    - GPA: 3.97\/4.00, Valedictorian
-
-    - Fulbright Scholarship recipient for Graduate Studies
+    - Thesis: Effectiveness of Continual Learning Strategies on CNN-Based Models for Glaucoma Detection
 
   ],
   [
     Madrid, ES
 
-    Sept 2014 – June 2018
+    Sept 2020 – June 2023
 
   ],
   degree-column: [
@@ -210,38 +227,66 @@ continuous learning and data-driven problem solving.
   ],
 )
 
-== Projects
-
-#regular-entry(
+#education-entry(
   [
-    #strong[#link("https://github.com/")[FlashInfer]]
-
-    #summary[Open-source library for high-performance LLM inference kernels]
-
-    - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-
-    - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+    #strong[Universidad Autónoma de Madrid], Psychology
 
   ],
   [
-    Jan 2023 – present
+    Online
+
+    Sept 2016 – June 2020
+
+  ],
+  degree-column: [
+    #strong[BS]
+  ],
+)
+
+== Certifications
+
+#regular-entry(
+  [
+    #strong[Professional Machine Learning Engineer (Google Cloud)]
+
+  ],
+  [
+    2026
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/")[NeuralPrune]]
-
-    #summary[Automated neural network pruning toolkit with differentiable masks]
-
-    - Reduced model size by 90\% with less than 1\% accuracy degradation on ImageNet
-
-    - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
+    #strong[Associate Data Practitioner (Google Cloud)]
 
   ],
   [
-    Jan 2021
+    2026
 
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Cloud Digital Leader (Google Cloud)]
+
+  ],
+  [
+    2025
+
+  ],
+)
+
+== Projects
+
+#regular-entry(
+  [
+    #strong[#link("https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/")[Brand monitoring with machine learning and language models]]
+
+    #summary[Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time]
+
+  ],
+  [
   ],
 )

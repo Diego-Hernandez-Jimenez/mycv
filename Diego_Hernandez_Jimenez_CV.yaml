@@ -15,20 +15,19 @@ cv:
   custom_connections:
   sections:
     presentation:
-      - I am a data scientist with brief but highly productive experience in the field. My strong foundation in
-      - statistical analysis and programming allows me to extract valuable insights from data. Additionally, my
-      - background in psychology brings a unique perspective when analyzing human behavior. I am motivated by
-      - continuous learning and data-driven problem solving.
+      - I am a data scientist with brief but highly productive experience in the field. My strong foundation in statistical analysis and programming allows me to extract valuable insights from data. Additionally, my background in psychology brings a unique perspective when analyzing human behavior. I am motivated by continuous learning and data-driven problem solving.
     
     skills:
-      - label: Languages
+      - label: Programming
         details: Python, R, SQL, Java
       - label: ML Frameworks
         details: PyTorch, Scikit-Learn, MLflow, mlr3
       - label: Cloud
         details: Google Cloud, Databricks
       - label: Data engineering
-        details: PySpark, dbt, Apache Beam
+        details: Airflow, PySpark, dbt, Apache Beam
+      - label: Languages
+        details: Spanish (native), English, French
 
     experience:
       - company: Accenture
@@ -37,66 +36,75 @@ cv:
         start_date: 2025-09
         end_date: present
         location: Madrid, ES
-        summary:
+        summary: Development of data ingestion platform in financial services sector
         highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
+          - Designed and developed data pipelines for unstructured and structured data
+
       - company: Havas Media
         position: Data Scientist
         date:
         start_date: 2023-09
         end_date: 2025-09
         location: Madrid, ES
-        summary:
+        summary: Developed core components of an internal BI platform, turning business requirements into scalable data products and insights.
         highlights:
-          - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
+          - Designed the data warehouse (schema, relationships, analytical tables).
+          - Performed advanced analyses with SQL (BigQuery), R, and Python.
+          - Built automated Databricks pipelines for data processing.
+          - Created a text-to-SQL chatbot for self-service analytics. 
+          - Applied ML-based data imputation to improve data quality.
+
+      - company: Grupo STIN
+        position: Junior Data Scientist
+        date:
+        start_date: 2021-09
+        end_date: 2022-04
+        location: Madrid, ES
+        summary: Led data analysis for a strategic project tracking personnel and scaffolding via GPS-enabled wearables, delivering ML-driven insights for operational decision-making.
+        highlights:
+          - Designed and executed data-collection experiments.
+          - Performed data preprocessing, exploratory analysis, and visualization.
+          - Proposed and evaluated machine-learning models and statistical methods to extract actionable knowledge.
 
     education:
       - institution: Universitat Oberta de Catalunya
-        area: Computer Science
+        area: Data Science
         degree: BS
         date:
         start_date: 2022-09
         end_date: 
         location: Online
-        summary:
-        highlights:
-          - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
-          - 'Advisor: Prof. Sanjeev Arora'
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+
       - institution: Universidad Autónoma de Madrid
         area: Applied Statistics
         degree: MS
         date:
-        start_date: 2014-09
-        end_date: 2018-06
+        start_date: 2020-09
+        end_date: 2023-06
         location: Madrid, ES
-        summary:
         highlights:
-          - 'GPA: 3.97/4.00, Valedictorian'
-          - Fulbright Scholarship recipient for Graduate Studies
-    projects:
-      - name: '[FlashInfer](https://github.com/)'
+          - "Thesis: Effectiveness of Continual Learning Strategies on CNN-Based Models for Glaucoma Detection"
+
+      - institution: Universidad Autónoma de Madrid
+        area: Psychology
+        degree: BS
         date:
-        start_date: 2023-01
-        end_date: present
-        location:
-        summary: Open-source library for high-performance LLM inference kernels
-        highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-      - name: '[NeuralPrune](https://github.com/)'
-        date: '2021'
-        start_date:
-        end_date:
-        location:
-        summary: Automated neural network pruning toolkit with differentiable masks
-        highlights:
-          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
-          - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
+        start_date: 2016-09
+        end_date: 2020-06 
+        location: Online
+      
+    certifications:
+      - name: Professional Machine Learning Engineer (Google Cloud)
+        date: 2026
+      - name: Associate Data Practitioner (Google Cloud)
+        date: 2026
+      - name: Cloud Digital Leader (Google Cloud)
+        date: 2025
+
+    projects:
+      - name: '[Brand monitoring with machine learning and language models](https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/)'
+        summary: Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time
+
     
 design:
   theme: classic
