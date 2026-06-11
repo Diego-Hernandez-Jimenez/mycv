@@ -94,7 +94,7 @@
   [#link("tel:+34-696-27-64-52", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[696 27 64 52]]],
   [#link("https://diego-hernandez-jimenez.github.io/web/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[diego-hernandez-jimenez.github.io\/web]]],
   [#link("https://linkedin.com/in/diego-hernández-jiménez", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[diego-hernández-jiménez]]],
-  [#link("https://github.com/rendercv", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[rendercv]]],
+  [#link("https://github.com/Diego-Hernandez-Jimenez", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[Diego-Hernandez-Jimenez]]],
 )
 
 
