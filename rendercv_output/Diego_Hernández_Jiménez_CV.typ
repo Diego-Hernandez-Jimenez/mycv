@@ -6,7 +6,7 @@
   name: "Diego Hernández Jiménez",
   title: "Diego Hernández Jiménez - CV",
   footer: context { [#emph[Diego Hernández Jiménez -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in Aug 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 11,
+    month: 8,
+    day: 9,
   ),
 )
 
@@ -100,17 +100,17 @@
 
 == Presentation
 
-I am a data scientist with brief but highly productive experience in the field. My strong foundation in statistical analysis and programming allows me to extract valuable insights from data. Additionally, my background in psychology brings a unique perspective when analyzing human behavior. I am motivated by continuous learning and data-driven problem solving.
+Data Scientist specializing in cloud data pipelines, model containerization, and ML lifecycle workflows. Experienced in applying software engineering practices to bridge the gap between data science and production environments.
 
 == Skills
 
 #strong[Programming:] Python, R, SQL, Java
 
-#strong[ML Frameworks:] PyTorch, Scikit-Learn, MLflow, mlr3
+#strong[Software & DevOps:] GitHub actions, Gitlab, FastAPI, Docker
 
-#strong[Cloud:] Google Cloud, Databricks
+#strong[MLOps & ML Frameworks:] PyTorch, Scikit-Learn, MLflow, mlr3, DVC
 
-#strong[Data engineering:] Airflow, PySpark, dbt, Apache Beam
+#strong[Data Engineering & Cloud:] GCP, Databricks, PySpark, Airflow, dbt, Apache Beam
 
 #strong[Languages:] Spanish (native), English, French
 
@@ -122,7 +122,11 @@ I am a data scientist with brief but highly productive experience in the field. 
 
     #summary[Development of data ingestion platform in financial services sector]
 
-    - Designed and developed data pipelines for unstructured and structured data
+    - Designed and developed end-to-end data pipelines for structured and unstructured data, writing maintainable Python code integrated into cloud environments.
+
+    - Containerized ingestion components using Docker and deployed serverless workloads on GCP Cloud Run.
+
+    - Applied software engineering practices: version control, code reviews via GitLab, and testing.
 
   ],
   [
@@ -132,7 +136,7 @@ I am a data scientist with brief but highly productive experience in the field. 
 
     
 
-    10 months
+    1 year
 
   ],
 )
@@ -143,13 +147,13 @@ I am a data scientist with brief but highly productive experience in the field. 
 
     #summary[Developed core components of an internal BI platform, turning business requirements into scalable data products and insights.]
 
-    - Designed the data warehouse (schema, relationships, analytical tables).
+    - Designed and executed the data warehouse architecture (schemas, relationships, and analytical tables).
 
-    - Performed advanced analyses with SQL (BigQuery), R, and Python.
+    - Built automated data processing and analytical pipelines using Databricks, Python, R and SQL (BigQuery).
 
     - Built automated Databricks pipelines for data processing.
 
-    - Created a text-to-SQL chatbot for self-service analytics.
+    - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical stakeholders.
 
     - Applied ML-based data imputation to improve data quality.
 
@@ -258,6 +262,17 @@ I am a data scientist with brief but highly productive experience in the field. 
 
 #regular-entry(
   [
+    #strong[Professional Data Engineer (Google Cloud)]
+
+  ],
+  [
+    2026
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Associate Data Practitioner (Google Cloud)]
 
   ],
@@ -278,7 +293,7 @@ I am a data scientist with brief but highly productive experience in the field. 
   ],
 )
 
-== Projects
+== selected projects
 
 #regular-entry(
   [

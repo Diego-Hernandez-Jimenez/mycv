@@ -15,17 +15,17 @@ cv:
   custom_connections:
   sections:
     presentation:
-      - I am a data scientist with brief but highly productive experience in the field. My strong foundation in statistical analysis and programming allows me to extract valuable insights from data. Additionally, my background in psychology brings a unique perspective when analyzing human behavior. I am motivated by continuous learning and data-driven problem solving.
+      - Data Scientist specializing in cloud data pipelines, model containerization, and ML lifecycle workflows. Experienced in applying software engineering practices to bridge the gap between data science and production environments.
     
     skills:
       - label: Programming
         details: Python, R, SQL, Java
-      - label: ML Frameworks
-        details: PyTorch, Scikit-Learn, MLflow, mlr3
-      - label: Cloud
-        details: Google Cloud, Databricks
-      - label: Data engineering
-        details: Airflow, PySpark, dbt, Apache Beam
+      - label: Software & DevOps
+        details: GitHub actions, Gitlab, FastAPI, Docker
+      - label: MLOps & ML Frameworks
+        details: PyTorch, Scikit-Learn, MLflow, mlr3, DVC
+      - label: Data Engineering & Cloud
+        details: GCP, Databricks, PySpark, Airflow, dbt, Apache Beam
       - label: Languages
         details: Spanish (native), English, French
 
@@ -38,7 +38,9 @@ cv:
         location: Madrid, ES
         summary: Development of data ingestion platform in financial services sector
         highlights:
-          - Designed and developed data pipelines for unstructured and structured data
+          - Designed and developed end-to-end data pipelines for structured and unstructured data, writing maintainable Python code integrated into cloud environments.
+          - Containerized ingestion components using Docker and deployed serverless workloads on GCP Cloud Run.
+          - "Applied software engineering practices: version control, code reviews via GitLab, and testing."
 
       - company: Havas Media
         position: Data Scientist
@@ -48,10 +50,10 @@ cv:
         location: Madrid, ES
         summary: Developed core components of an internal BI platform, turning business requirements into scalable data products and insights.
         highlights:
-          - Designed the data warehouse (schema, relationships, analytical tables).
-          - Performed advanced analyses with SQL (BigQuery), R, and Python.
+          - Designed and executed the data warehouse architecture (schemas, relationships, and analytical tables).
+          - Built automated data processing and analytical pipelines using Databricks, Python, R and SQL (BigQuery).
           - Built automated Databricks pipelines for data processing.
-          - Created a text-to-SQL chatbot for self-service analytics. 
+          - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical stakeholders.
           - Applied ML-based data imputation to improve data quality.
 
       - company: Grupo STIN
@@ -96,12 +98,14 @@ cv:
     certifications:
       - name: Professional Machine Learning Engineer (Google Cloud)
         date: 2026
+      - name: Professional Data Engineer (Google Cloud)
+        date: 2026
       - name: Associate Data Practitioner (Google Cloud)
         date: 2026
       - name: Cloud Digital Leader (Google Cloud)
         date: 2025
 
-    projects:
+    selected projects:
       - name: '[Brand monitoring with machine learning and language models](https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/)'
         summary: Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time
 
