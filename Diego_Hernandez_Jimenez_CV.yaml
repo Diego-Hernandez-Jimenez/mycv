@@ -100,6 +100,8 @@ cv:
         date: 2026
       - name: Professional Data Engineer (Google Cloud)
         date: 2026
+      - name: Professional Cloud DevOps Engineer (Google Cloud)
+        date: 2026
       - name: Associate Data Practitioner (Google Cloud)
         date: 2026
       - name: Cloud Digital Leader (Google Cloud)
@@ -108,6 +110,9 @@ cv:
     selected projects:
       - name: '[Brand monitoring with machine learning and language models](https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/)'
         summary: Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time
+      
+      - name: '[Self hosting MLflow with IaC in Google Cloud](https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting)'
+        summary: Reusable pulumi plugin to deploy MLflow in the cloud for free
 
     
 design:

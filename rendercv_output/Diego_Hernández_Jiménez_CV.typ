@@ -6,7 +6,7 @@
   name: "Diego Hernández Jiménez",
   title: "Diego Hernández Jiménez - CV",
   footer: context { [#emph[Diego Hernández Jiménez -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Aug 2026] ],
+  top-note: [ #emph[Last updated in Oct 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 9,
+    month: 10,
+    day: 2,
   ),
 )
 
@@ -136,7 +136,7 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
 
     
 
-    1 year
+    1 year 2 months
 
   ],
 )
@@ -273,6 +273,17 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
 
 #regular-entry(
   [
+    #strong[Professional Cloud DevOps Engineer (Google Cloud)]
+
+  ],
+  [
+    2026
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Associate Data Practitioner (Google Cloud)]
 
   ],
@@ -300,6 +311,17 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
     #strong[#link("https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/")[Brand monitoring with machine learning and language models]]
 
     #summary[Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time]
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[#link("https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting")[Self hosting MLflow with IaC in Google Cloud]]
+
+    #summary[Reusable pulumi plugin to deploy MLflow in the cloud for free]
 
   ],
   [
