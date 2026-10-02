@@ -1,6 +1,6 @@
 update-main-cv COMMIT_MSG:
     @echo "Updating main cv..."
-    uvx rendercv[full] render /home/diexo/mycv/Diego_Hernandez_Jimenez_CV.yaml
+    uvx rendercv[full] render Diego_Hernandez_Jimenez_CV.yaml
 
     @echo "Adding changes..."
     git add .
@@ -13,7 +13,7 @@ update-main-cv COMMIT_MSG:
 
 update-secondary-cv:
     @echo "Updating secondary cv pdf..."
-    uvx rendercv[full] render /home/diexo/mycv/secondary/Diego_Hernandez_Jimenez_CV.yaml \
+    uvx rendercv[full] render secondary/Diego_Hernandez_Jimenez_CV.yaml \
         --dont-generate-markdown \
         --dont-generate-html \
         --dont-generate-png
