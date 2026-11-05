@@ -6,7 +6,7 @@
   name: "Diego Hernández Jiménez",
   title: "Diego Hernández Jiménez - CV",
   footer: context { [#emph[Diego Hernández Jiménez -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Oct 2026] ],
+  top-note: [ #emph[Last updated in Nov 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 10,
-    day: 2,
+    month: 11,
+    day: 5,
   ),
 )
 
@@ -122,9 +122,9 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
 
     #summary[Development of data ingestion platform in financial services sector]
 
-    - Designed and developed end-to-end data pipelines for structured and unstructured data, writing maintainable Python code integrated into cloud environments.
+    - Designed and developed end-to-end data pipelines for structured, semi-structured, and unstructured data, writing maintainable Python code integrated into cloud environments.
 
-    - Containerized ingestion components using Docker and deployed serverless workloads on GCP Cloud Run.
+    - Containerized ingestion workloads with Docker and deployed serverless tasks to GCP Cloud Run.
 
     - Applied software engineering practices: version control, code reviews via GitLab, and testing.
 
@@ -136,7 +136,7 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
 
     
 
-    1 year 2 months
+    1 year 3 months
 
   ],
 )
@@ -153,9 +153,9 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
 
     - Built automated Databricks pipelines for data processing.
 
-    - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical stakeholders.
+    - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical teams.
 
-    - Applied ML-based data imputation to improve data quality.
+    - Implemented ML-based data imputation algorithms to enhance internal data quality and reliability.
 
   ],
   [
@@ -304,11 +304,11 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
   ],
 )
 
-== selected projects
+== Selected projects
 
 #regular-entry(
   [
-    #strong[#link("https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/")[Brand monitoring with machine learning and language models]]
+    #strong[#link("https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/")[🔗 Brand monitoring with machine learning and language models]]
 
     #summary[Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time]
 
@@ -319,7 +319,7 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting")[Self hosting MLflow with IaC in Google Cloud]]
+    #strong[#link("https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting")[🔗 Self hosting MLflow with IaC in Google Cloud]]
 
     #summary[Reusable pulumi plugin to deploy MLflow in the cloud for free]
 

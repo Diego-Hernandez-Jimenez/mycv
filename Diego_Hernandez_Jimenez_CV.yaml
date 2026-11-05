@@ -38,8 +38,8 @@ cv:
         location: Madrid, ES
         summary: Development of data ingestion platform in financial services sector
         highlights:
-          - Designed and developed end-to-end data pipelines for structured and unstructured data, writing maintainable Python code integrated into cloud environments.
-          - Containerized ingestion components using Docker and deployed serverless workloads on GCP Cloud Run.
+          - Designed and developed end-to-end data pipelines for structured, semi-structured, and unstructured data, writing maintainable Python code integrated into cloud environments.
+          - Containerized ingestion workloads with Docker and deployed serverless tasks to GCP Cloud Run.
           - "Applied software engineering practices: version control, code reviews via GitLab, and testing."
 
       - company: Havas Media
@@ -53,8 +53,8 @@ cv:
           - Designed and executed the data warehouse architecture (schemas, relationships, and analytical tables).
           - Built automated data processing and analytical pipelines using Databricks, Python, R and SQL (BigQuery).
           - Built automated Databricks pipelines for data processing.
-          - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical stakeholders.
-          - Applied ML-based data imputation to improve data quality.
+          - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical teams.
+          - Implemented ML-based data imputation algorithms to enhance internal data quality and reliability.
 
       - company: Grupo STIN
         position: Junior Data Scientist
@@ -107,11 +107,11 @@ cv:
       - name: Cloud Digital Leader (Google Cloud)
         date: 2025
 
-    selected projects:
-      - name: '[Brand monitoring with machine learning and language models](https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/)'
+    Selected projects:
+      - name: '[🔗 Brand monitoring with machine learning and language models](https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/)'
         summary: Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time
       
-      - name: '[Self hosting MLflow with IaC in Google Cloud](https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting)'
+      - name: '[🔗 Self hosting MLflow with IaC in Google Cloud](https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting)'
         summary: Reusable pulumi plugin to deploy MLflow in the cloud for free
 
     
