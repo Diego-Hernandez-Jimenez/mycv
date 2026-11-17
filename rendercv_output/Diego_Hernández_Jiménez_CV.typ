@@ -331,4 +331,4 @@ Data Professional with over 3 years of experience across Data Engineering and Da
 
 #strong[English:] C1
 
-#strong[French:] B2
+#strong[French:] A2
