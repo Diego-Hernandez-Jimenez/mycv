@@ -15,19 +15,21 @@ cv:
   custom_connections:
   sections:
     presentation:
-      - Data Scientist specializing in cloud data pipelines, model containerization, and ML lifecycle workflows. Experienced in applying software engineering practices to bridge the gap between data science and production environments.
-    
+      - >-
+        Data Professional with over 3 years of experience across Data Engineering and Data Science roles. 
+        Proficient in Python and GCP, with experience in Databricks, and MLflow. Specialized in cloud data pipelines, software 
+        engineering practices (Docker, CI/CD, serverless), and data product development. 
+        I combine my mathematical background with hands-on experience building production data infrastructure and applying 
+        ML workflows.
     skills:
       - label: Programming
-        details: Python, R, SQL, Java
-      - label: Software & DevOps
-        details: GitHub actions, Gitlab, FastAPI, Docker
-      - label: MLOps & ML Frameworks
-        details: PyTorch, Scikit-Learn, MLflow, mlr3, DVC
+        details: Python, SQL, R, Java
       - label: Data Engineering & Cloud
         details: GCP, Databricks, PySpark, Airflow, dbt, Apache Beam
-      - label: Languages
-        details: Spanish (native), English, French
+      - label: AI & ML
+        details: PyTorch, ADK, Scikit-Learn, MLflow, mlr3, DVC
+      - label: Software & DevOps
+        details: GitHub actions, Git, FastAPI, Docker
 
     experience:
       - company: Accenture
@@ -36,11 +38,11 @@ cv:
         start_date: 2025-09
         end_date: present
         location: Madrid, ES
-        summary: Development of data ingestion platform in financial services sector
+        summary: Engineering a cloud-native data ingestion platform in the financial services sector, handling multi-format data workloads at scale.
         highlights:
-          - Designed and developed end-to-end data pipelines for structured, semi-structured, and unstructured data, writing maintainable Python code integrated into cloud environments.
-          - Containerized ingestion workloads with Docker and deployed serverless tasks to GCP Cloud Run.
-          - "Applied software engineering practices: version control, code reviews via GitLab, and testing."
+          - Built end-to-end ingestion pipelines for unstructured and semi-structured data using Python, Cloud Composer (Airflow), GCS, and BigQuery, deploying containerized workloads with Docker on Cloud Run.
+          - Developed large-scale data pipelines ingesting structured data from relational sources into BigQuery using GCP Dataflow (Apache Beam with Java).
+          - "Applied software engineering practices: version control, automated testing, and code reviews via GitLab."
 
       - company: Havas Media
         position: Data Scientist
@@ -48,13 +50,12 @@ cv:
         start_date: 2023-09
         end_date: 2025-09
         location: Madrid, ES
-        summary: Developed core components of an internal BI platform, turning business requirements into scalable data products and insights.
+        summary: Developed core components of an internal media BI and analytics platform, translating cross-functional business requirements into scalable data products.
         highlights:
-          - Designed and executed the data warehouse architecture (schemas, relationships, and analytical tables).
-          - Built automated data processing and analytical pipelines using Databricks, Python, R and SQL (BigQuery).
-          - Built automated Databricks pipelines for data processing.
-          - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical teams.
-          - Implemented ML-based data imputation algorithms to enhance internal data quality and reliability.
+          - Designed and implemented the data warehouse architecture, defining data models, schemas, relationships, and analytical tables.
+          - Built automated ETL/ELT data processing and analytical pipelines using Databricks, Python, SQL (BigQuery), and R.
+          - Prototyped an end-to-end Text-to-SQL LLM chatbot to enable self-service data exploration and insights for non-technical business stakeholders.
+          - Implemented ML-based data imputation workflows to improve internal data quality, consistency, and reliability.
 
       - company: Grupo STIN
         position: Junior Data Scientist
@@ -62,11 +63,38 @@ cv:
         start_date: 2021-09
         end_date: 2022-04
         location: Madrid, ES
-        summary: Led data analysis for a strategic project tracking personnel and scaffolding via GPS-enabled wearables, delivering ML-driven insights for operational decision-making.
+        summary: Led data analysis for an operational tracking project using GPS-enabled wearables, delivering ML-driven insights for decision-making.
         highlights:
-          - Designed and executed data-collection experiments.
-          - Performed data preprocessing, exploratory analysis, and visualization.
-          - Proposed and evaluated machine-learning models and statistical methods to extract actionable knowledge.
+          - Designed data-collection workflows and executed data preprocessing, exploratory analysis, and visualization.
+          - Developed and evaluated machine learning and statistical models to extract actionable operational insights.
+
+    certifications:
+      - name: Professional Machine Learning Engineer
+        institution: Google Cloud
+      - name: Professional Data Engineer
+        institution: Google Cloud
+      - name: Professional Cloud DevOps Engineer
+        institution: Google Cloud
+      - name: Associate Data Practitioner
+        institution: Google Cloud
+      - name: Cloud Digital Leader
+        institution: Google Cloud
+      - name: Gemini Enterprise Forward Deployed Engineer Bootcamp
+        institution: Google Cloud
+        date: 2026
+
+    projects:
+      - name: '[🔗 Brand monitoring with machine learning and language models](https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/)'
+        summary: Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time
+      
+      - name: '[🔗 Self hosting MLflow with IaC in Google Cloud](https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting)'
+        summary: Reusable pulumi plugin to deploy MLflow in the cloud for free
+      
+      - name: '[🔗 Time Series Classification – GDG ML Competition](https://github.com/Diego-Hernandez-Jimenez/gdg-uam-ml-contest)'
+        summary:
+          >-
+            End-to-end pipeline combining signal processing, MiniRocket feature extraction, and Ridge classification, 
+            optimized for constrained evaluation conditions.
 
     education:
       - institution: Universitat Oberta de Catalunya
@@ -94,26 +122,14 @@ cv:
         start_date: 2016-09
         end_date: 2020-06 
         location: Online
-      
-    certifications:
-      - name: Professional Machine Learning Engineer (Google Cloud)
-        date: 2026
-      - name: Professional Data Engineer (Google Cloud)
-        date: 2026
-      - name: Professional Cloud DevOps Engineer (Google Cloud)
-        date: 2026
-      - name: Associate Data Practitioner (Google Cloud)
-        date: 2026
-      - name: Cloud Digital Leader (Google Cloud)
-        date: 2025
-
-    Selected projects:
-      - name: '[🔗 Brand monitoring with machine learning and language models](https://diego-hernandez-jimenez.github.io/web/posts/brand_monitoring/)'
-        summary: Brand monitoring tool that scrapes news articles and performs sentiment and topic analysis in real time
-      
-      - name: '[🔗 Self hosting MLflow with IaC in Google Cloud](https://github.com/Diego-Hernandez-Jimenez/mlflow-selfhosting)'
-        summary: Reusable pulumi plugin to deploy MLflow in the cloud for free
-
+    
+    Languages:
+      - label: Spanish
+        details: Native
+      - label: English
+        details: C1
+      - label: French
+        details: B2
     
 design:
   theme: classic
@@ -163,7 +179,7 @@ design:
   # links:
   #   underline: false
   #   show_external_link_icon: false
-  # header:
+  header:
   #   alignment: center
   #   photo_width: 3.5cm
   #   photo_position: left
@@ -172,12 +188,12 @@ design:
   #   space_below_name: 0.7cm
   #   space_below_headline: 0.7cm
   #   space_below_connections: 0.7cm
-  #   connections:
+    connections:
   #     phone_number_format: national
   #     hyperlink: true
   #     show_icons: true
   #     display_urls_instead_of_usernames: false
-  #     separator: ''
+      separator: '|'
   #     space_between_connections: 0.5cm
   # section_titles:
   #   type: with_partial_line
@@ -207,7 +223,7 @@ design:
   #     space_above: 0cm
   #     space_between_items: 0cm
   #     space_between_bullet_and_text: 0.5em
-  # templates:
+  templates:
   #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
   #   top_note: '*LAST_UPDATED CURRENT_DATE*'
   #   single_date: MONTH_ABBREVIATION YEAR
@@ -215,16 +231,29 @@ design:
   #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
   #   one_line_entry:
   #     main_column: '**LABEL:** DETAILS'
-  #   education_entry:
-  #     main_column: |-
-  #       **INSTITUTION**, AREA
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     degree_column: '**DEGREE**'
-  #     date_and_location_column: |-
-  #       LOCATION
-  #       DATE
-  #   normal_entry:
+    education_entry:
+      # main_column: |-
+      #   **INSTITUTION**, AREA
+      #   SUMMARY
+      #   HIGHLIGHTS
+      # degree_column: '**DEGREE**'
+      main_column: |-
+        **INSTITUTION**, DEGREE AREA
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: null
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column: |-
+        **NAME** - INSTITUTION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        # LOCATION
+        DATE
+    #   normal_entry:
   #     main_column: |-
   #       **NAME**
   #       SUMMARY
@@ -232,6 +261,14 @@ design:
   #     date_and_location_column: |-
   #       LOCATION
   #       DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
   #   experience_entry:
   #     main_column: |-
   #       **COMPANY**, POSITION

@@ -55,7 +55,7 @@
   header-connections-hyperlink: true,
   header-connections-show-icons: true,
   header-connections-display-urls-instead-of-usernames: false,
-  header-connections-separator: "",
+  header-connections-separator: "|",
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_partial_line",
   section-titles-line-thickness: 0.5pt,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 5,
+    day: 17,
   ),
 )
 
@@ -100,19 +100,17 @@
 
 == Presentation
 
-Data Scientist specializing in cloud data pipelines, model containerization, and ML lifecycle workflows. Experienced in applying software engineering practices to bridge the gap between data science and production environments.
+Data Professional with over 3 years of experience across Data Engineering and Data Science roles.  Proficient in Python and GCP, with experience in Databricks, and MLflow. Specialized in cloud data pipelines, software  engineering practices (Docker, CI\/CD, serverless), and data product development.  I combine my mathematical background with hands-on experience building production data infrastructure and applying  ML workflows.
 
 == Skills
 
-#strong[Programming:] Python, R, SQL, Java
-
-#strong[Software & DevOps:] GitHub actions, Gitlab, FastAPI, Docker
-
-#strong[MLOps & ML Frameworks:] PyTorch, Scikit-Learn, MLflow, mlr3, DVC
+#strong[Programming:] Python, SQL, R, Java
 
 #strong[Data Engineering & Cloud:] GCP, Databricks, PySpark, Airflow, dbt, Apache Beam
 
-#strong[Languages:] Spanish (native), English, French
+#strong[AI & ML:] PyTorch, ADK, Scikit-Learn, MLflow, mlr3, DVC
+
+#strong[Software & DevOps:] GitHub actions, Git, FastAPI, Docker
 
 == Experience
 
@@ -120,13 +118,13 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
   [
     #strong[Accenture], Data Engineer
 
-    #summary[Development of data ingestion platform in financial services sector]
+    #summary[Engineering a cloud-native data ingestion platform in the financial services sector, handling multi-format data workloads at scale.]
 
-    - Designed and developed end-to-end data pipelines for structured, semi-structured, and unstructured data, writing maintainable Python code integrated into cloud environments.
+    - Built end-to-end ingestion pipelines for unstructured and semi-structured data using Python, Cloud Composer (Airflow), GCS, and BigQuery, deploying containerized workloads with Docker on Cloud Run.
 
-    - Containerized ingestion workloads with Docker and deployed serverless tasks to GCP Cloud Run.
+    - Developed large-scale data pipelines ingesting structured data from relational sources into BigQuery using GCP Dataflow (Apache Beam with Java).
 
-    - Applied software engineering practices: version control, code reviews via GitLab, and testing.
+    - Applied software engineering practices: version control, automated testing, and code reviews via GitLab.
 
   ],
   [
@@ -145,17 +143,15 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
   [
     #strong[Havas Media], Data Scientist
 
-    #summary[Developed core components of an internal BI platform, turning business requirements into scalable data products and insights.]
+    #summary[Developed core components of an internal media BI and analytics platform, translating cross-functional business requirements into scalable data products.]
 
-    - Designed and executed the data warehouse architecture (schemas, relationships, and analytical tables).
+    - Designed and implemented the data warehouse architecture, defining data models, schemas, relationships, and analytical tables.
 
-    - Built automated data processing and analytical pipelines using Databricks, Python, R and SQL (BigQuery).
+    - Built automated ETL\/ELT data processing and analytical pipelines using Databricks, Python, SQL (BigQuery), and R.
 
-    - Built automated Databricks pipelines for data processing.
+    - Prototyped an end-to-end Text-to-SQL LLM chatbot to enable self-service data exploration and insights for non-technical business stakeholders.
 
-    - Prototyped an end-to-end Text-to-SQL chatbot to enable self-service analytics for non-technical teams.
-
-    - Implemented ML-based data imputation algorithms to enhance internal data quality and reliability.
+    - Implemented ML-based data imputation workflows to improve internal data quality, consistency, and reliability.
 
   ],
   [
@@ -174,13 +170,11 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
   [
     #strong[Grupo STIN], Junior Data Scientist
 
-    #summary[Led data analysis for a strategic project tracking personnel and scaffolding via GPS-enabled wearables, delivering ML-driven insights for operational decision-making.]
+    #summary[Led data analysis for an operational tracking project using GPS-enabled wearables, delivering ML-driven insights for decision-making.]
 
-    - Designed and executed data-collection experiments.
+    - Designed data-collection workflows and executed data preprocessing, exploratory analysis, and visualization.
 
-    - Performed data preprocessing, exploratory analysis, and visualization.
-
-    - Proposed and evaluated machine-learning models and statistical methods to extract actionable knowledge.
+    - Developed and evaluated machine learning and statistical models to extract actionable operational insights.
 
   ],
   [
@@ -195,63 +189,56 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
   ],
 )
 
-== Education
-
-#education-entry(
-  [
-    #strong[Universitat Oberta de Catalunya], Data Science
-
-  ],
-  [
-    Online
-
-    Sept 2022 – present
-
-  ],
-  degree-column: [
-    #strong[BS]
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Universidad Autónoma de Madrid], Applied Statistics
-
-    - Thesis: Effectiveness of Continual Learning Strategies on CNN-Based Models for Glaucoma Detection
-
-  ],
-  [
-    Madrid, ES
-
-    Sept 2020 – June 2023
-
-  ],
-  degree-column: [
-    #strong[MS]
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Universidad Autónoma de Madrid], Psychology
-
-  ],
-  [
-    Online
-
-    Sept 2016 – June 2020
-
-  ],
-  degree-column: [
-    #strong[BS]
-  ],
-)
-
 == Certifications
 
 #regular-entry(
   [
-    #strong[Professional Machine Learning Engineer (Google Cloud)]
+    #strong[Professional Machine Learning Engineer] - Google Cloud
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Professional Data Engineer] - Google Cloud
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Professional Cloud DevOps Engineer] - Google Cloud
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Associate Data Practitioner] - Google Cloud
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Cloud Digital Leader] - Google Cloud
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Gemini Enterprise Forward Deployed Engineer Bootcamp] - Google Cloud
 
   ],
   [
@@ -260,51 +247,7 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
   ],
 )
 
-#regular-entry(
-  [
-    #strong[Professional Data Engineer (Google Cloud)]
-
-  ],
-  [
-    2026
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Professional Cloud DevOps Engineer (Google Cloud)]
-
-  ],
-  [
-    2026
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Associate Data Practitioner (Google Cloud)]
-
-  ],
-  [
-    2026
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Cloud Digital Leader (Google Cloud)]
-
-  ],
-  [
-    2025
-
-  ],
-)
-
-== Selected projects
+== Projects
 
 #regular-entry(
   [
@@ -327,3 +270,65 @@ Data Scientist specializing in cloud data pipelines, model containerization, and
   [
   ],
 )
+
+#regular-entry(
+  [
+    #strong[#link("https://github.com/Diego-Hernandez-Jimenez/gdg-uam-ml-contest")[🔗 Time Series Classification – GDG ML Competition]]
+
+    #summary[End-to-end pipeline combining signal processing, MiniRocket feature extraction, and Ridge classification,  optimized for constrained evaluation conditions.]
+
+  ],
+  [
+  ],
+)
+
+== Education
+
+#education-entry(
+  [
+    #strong[Universitat Oberta de Catalunya], BS Data Science
+
+  ],
+  [
+    Online
+
+    Sept 2022 – present
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Universidad Autónoma de Madrid], MS Applied Statistics
+
+    - Thesis: Effectiveness of Continual Learning Strategies on CNN-Based Models for Glaucoma Detection
+
+  ],
+  [
+    Madrid, ES
+
+    Sept 2020 – June 2023
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Universidad Autónoma de Madrid], BS Psychology
+
+  ],
+  [
+    Online
+
+    Sept 2016 – June 2020
+
+  ],
+)
+
+== Languages
+
+#strong[Spanish:] Native
+
+#strong[English:] C1
+
+#strong[French:] B2
